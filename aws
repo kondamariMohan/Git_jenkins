@@ -13,3 +13,8 @@ else
     mkdir /tmp/my_directory
     echo "Created directory /tmp/my_directory."
 fi
+
+# Conditional statement
+if [ -d "/tmp/my_directory" ]; then
+    echo "Directory /tmp/my_directory already exists."
+else
